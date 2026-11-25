@@ -10,3 +10,4 @@
 | 2026-11-26 | Python 3.12 | Your choice | 3.11, 3.13 |
 | 2026-11-26 | Accepted Anaconda ToS for `defaults` | Your choice | conda-forge |
 | 2026-11-26 | secondBrain paused | Your choice, to focus on this project | Run both in parallel |
+| 2026-11-26 | Plan approved; desktop stack **A**: FastAPI + React/Tailwind in pywebview, PyInstaller on a GitHub Actions Windows runner | Best UI control; data/AI logic stays in Python | B (Flet), C (Tauri + Python sidecar) |
