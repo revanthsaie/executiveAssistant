@@ -1,6 +1,6 @@
 # Executive Assistant — Plan
 
-> Status: **DRAFT, waiting for your approval.** No app code is written until you approve.
+> Status: **APPROVED 2026-11-26 with stack A** (FastAPI + React/Tailwind in pywebview, PyInstaller via GitHub Actions).
 > Created: 2026-11-26 · Mode: **builder** (Claude writes the code; RAG/retrieval design explained as we go)
 
 ---
@@ -149,7 +149,7 @@ M0 comes first because the biggest risks are about your **laptop** (WebView2, IT
 2. **Enterprise Claude access:** a direct Anthropic API key, or a company gateway URL? Does company policy allow sending work note snippets to it?
 3. **Ollama:** Are you allowed to install it on the work laptop? (M0 checks this too.)
 4. **GitHub repo: public or private?** Private is my recommendation (work tool, free minutes are enough).
-5. **Desktop stack:** A, B or C (§5.1)?
+5. ~~**Desktop stack**~~ → **A** (approved 2026-11-26)
 
 ## 9. Risks
 

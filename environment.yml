@@ -3,3 +3,9 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - nodejs
+  - conda-forge::gh   # GitHub CLI, from conda-forge
+  - pip
+  - pip:
+      - -e .            # installs fastapi, uvicorn, pywebview from pyproject.toml
+      - pyinstaller>=6.22
