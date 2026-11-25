@@ -16,9 +16,11 @@
 - Public repo created: https://github.com/revanthsaie/executiveAssistant (`main`, `develop` pushed).
 - First Windows build NOT run: manual runs need the workflow on `main`. You chose to build at the M0 release (develop → main PR).
 
-**Where we stopped:** the M0 release PR. Note: M0's "done when" needs the `.exe` tested on the laptop, so the release PR must come *before* that test (v0.0.x = test build; fix forward if it fails).
+- PR #1 `develop` → `main` merged; tag `v0.0.1` pushed. Windows build **passed in ~1.5 min**; Release has `ExecutiveAssistant-windows.zip` (17 MB): https://github.com/revanthsaie/executiveAssistant/releases/tag/v0.0.1
+
+**Where we stopped:** M0 laptop test (only you can do it).
 
 **Next steps**
-1. You: OK to open the PR `develop` → `main` (I write the description), merge, tag → Windows build + Release.
-2. Download the zip on the work laptop → run it; note startup time. Install Ollama, run one prompt.
-3. You: answer plan §8 Q1–3 (fake folder tree, Claude key access, Ollama allowed?).
+1. On the work laptop: download the zip from the Release → unzip → run `ExecutiveAssistant\ExecutiveAssistant.exe`. Expect a window with 3 green checks (`... on Windows`). Note the startup time and any SmartScreen/IT prompt.
+2. Same laptop: install Ollama (if allowed), run `ollama run llama3.2:3b "hello"`, note how long the answer takes.
+3. Answer plan §8 Q1–3 (fake folder tree, Claude key access, Ollama allowed?). Then M0 is done and M1 (task dashboard) starts.

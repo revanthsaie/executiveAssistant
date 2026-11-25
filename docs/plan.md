@@ -113,7 +113,7 @@ Facts behind the table:
 
 ### 5.3 Build / CI cost
 - Private repo: Windows minutes count **2×** against the free 2,000 min/month (≈1,000 Windows minutes). Public repos are free. The default spending limit is $0, so you can't be charged by accident. [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
-- Expected build time ~5–10 min per release (**NOT VERIFIED**; measured in M0). That is plenty of headroom.
+- Measured build time: **~1.5 min** per release (v0.0.1, 2026-11-26). Public repo, so the minutes are free anyway. [Run log](https://github.com/revanthsaie/executiveAssistant/actions/runs/45685239705)
 
 ## 6. Data safety (work data)
 

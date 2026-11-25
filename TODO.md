@@ -11,5 +11,5 @@ Done when: a "hello" `.exe` built by GitHub Actions opens on the work laptop, an
 - [x] Minimal FastAPI + pywebview "hello" window on the Mac (+ PyInstaller spec test-built on Mac)
 - [x] Actions workflow written (`.github/workflows/build-windows.yml`)
 - [x] Public GitHub repo, `main` + `develop` pushed
-- [ ] M0 release PR `develop` → `main` + tag → first Windows build (needs your OK)
+- [x] M0 release PR #1 merged, tag `v0.0.1`, Windows build OK (~1.5 min, 17 MB zip)
 - [ ] You: run the `.exe` on the work laptop; install Ollama, run one prompt
