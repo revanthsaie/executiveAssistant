@@ -8,6 +8,7 @@ Done when: a "hello" `.exe` built by GitHub Actions opens on the work laptop, an
 - [x] Plan approved (stack A)
 - [ ] Your answers to plan §8 open questions 1–4 (needed before the sample vault task)
 - [ ] Fake sample vault generator
-- [ ] Minimal FastAPI + pywebview "hello" window on the Mac
-- [ ] GitHub repo + Actions workflow → Windows `.exe` on a Release (ask: public/private, push)
+- [x] Minimal FastAPI + pywebview "hello" window on the Mac (+ PyInstaller spec test-built on Mac)
+- [x] Actions workflow written (`.github/workflows/build-windows.yml`)
+- [ ] GitHub repo + first Windows build (ask: public/private, push)
 - [ ] You: run the `.exe` on the work laptop; install Ollama, run one prompt

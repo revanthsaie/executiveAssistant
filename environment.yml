@@ -3,3 +3,8 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - nodejs
+  - pip
+  - pip:
+      - -e .            # installs fastapi, uvicorn, pywebview from pyproject.toml
+      - pyinstaller>=6.22
