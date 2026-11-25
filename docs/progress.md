@@ -12,9 +12,13 @@
   - GitHub Actions workflow for the Windows build (not run yet: no GitHub repo).
 - secondBrain marked paused.
 
-**Where we stopped:** M0 task "GitHub repo + first Windows build" needs your OK (public/private, push).
+- Merged `feature/m0-hello-window` → `develop`. Commits rewritten (before first push) to the GitHub noreply email.
+- Public repo created: https://github.com/revanthsaie/executiveAssistant (`main`, `develop` pushed).
+- First Windows build NOT run: manual runs need the workflow on `main`. You chose to build at the M0 release (develop → main PR).
+
+**Where we stopped:** the M0 release PR. Note: M0's "done when" needs the `.exe` tested on the laptop, so the release PR must come *before* that test (v0.0.x = test build; fix forward if it fails).
 
 **Next steps**
-1. You: approve merging `feature/m0-hello-window` → `develop`; choose public/private repo; OK to push.
-2. Run the workflow → download zip on the work laptop → run it; note startup time. Install Ollama, run one prompt.
+1. You: OK to open the PR `develop` → `main` (I write the description), merge, tag → Windows build + Release.
+2. Download the zip on the work laptop → run it; note startup time. Install Ollama, run one prompt.
 3. You: answer plan §8 Q1–3 (fake folder tree, Claude key access, Ollama allowed?).

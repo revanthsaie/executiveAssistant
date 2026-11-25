@@ -14,3 +14,5 @@
 | 2026-11-26 | Node.js installed inside the conda env, not globally | One env per project rule | Homebrew global Node |
 | 2026-11-26 | PyInstaller "onedir" (folder + exe), zipped for download | Faster start than one-file exe, which unpacks itself on every launch | `--onefile` |
 | 2026-11-26 | Release via `gh release create` in the workflow | Uses the CLI already on GitHub runners; no third-party action | softprops/action-gh-release |
+| 2026-11-26 | Public repo; commits use GitHub noreply email | Your choice; keeps your personal email out of public history | Private repo; keep iCloud email |
+| 2026-11-26 | Windows build runs only from `main` (release time) | Your choice; `main` stays release-only | Build on every push to develop; develop as default branch |

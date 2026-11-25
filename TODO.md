@@ -10,5 +10,6 @@ Done when: a "hello" `.exe` built by GitHub Actions opens on the work laptop, an
 - [ ] Fake sample vault generator
 - [x] Minimal FastAPI + pywebview "hello" window on the Mac (+ PyInstaller spec test-built on Mac)
 - [x] Actions workflow written (`.github/workflows/build-windows.yml`)
-- [ ] GitHub repo + first Windows build (ask: public/private, push)
+- [x] Public GitHub repo, `main` + `develop` pushed
+- [ ] M0 release PR `develop` → `main` + tag → first Windows build (needs your OK)
 - [ ] You: run the `.exe` on the work laptop; install Ollama, run one prompt
